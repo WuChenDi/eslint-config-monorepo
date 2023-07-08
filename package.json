@@ -1,0 +1,11 @@
+{
+  "name": "@cdlab996/eslint-config-monorepo",
+  "version": "1.0.10",
+  "private": true,
+  "author": "wudi",
+  "license": "MIT",
+  "homepage": "https://github.com/WuChenDi/eslint-config",
+  "scripts": {
+    "release": "pnpm publish -r --filter @cdlab996/* --no-git-checks --tag=latest"
+  }
+}
