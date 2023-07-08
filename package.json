@@ -7,5 +7,8 @@
   "homepage": "https://github.com/WuChenDi/eslint-config",
   "scripts": {
     "release": "pnpm publish -r --filter @cdlab996/* --no-git-checks --tag=latest"
+  },
+  "devDependencies": {
+    "@cdlab996/prettier-config": "workspace:*"
   }
 }
