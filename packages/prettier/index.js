@@ -1,3 +1,4 @@
+/** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
 module.exports = {
   singleQuote: true,
   printWidth: 90,
@@ -18,4 +19,5 @@ module.exports = {
   jsxSingleQuote: true,
   jsxBracketSameLine: false,
   plugins: ['@ianvs/prettier-plugin-sort-imports'],
+  importOrder: ["<THIRD_PARTY_MODULES>", "^(?!.*[.]css$|.*[.]svg$)[./].*$", ".svg$", ".css$"],
 }
