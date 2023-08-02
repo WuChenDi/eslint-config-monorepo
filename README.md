@@ -55,4 +55,4 @@ This project is inspired by:
 
 ## 📜 License
 
-[MIT](./LICENSE) License &copy; 2023-PRESENT [cdLab996](https://github.com/cdLab996)
+[MIT](./LICENSE) License &copy; 2023-PRESENT [WuChenDi](https://github.com/WuChenDi)
