@@ -3,12 +3,21 @@
 ### 🔧 Installation
 
 ```shell
-pnpm add -D @cdlab996/eslint-config(TODO) @cdlab996/prettier-config
+pnpm add -D @cdlab996/eslint-config @cdlab996/prettier-config
 ```
 
-<!-- ### ESLint
+### ESLint
 
-TODO -->
+```javascript
+// .eslintrc.js
+
+// Only use if you want a stricter ruleset
+process.env.ESLINT_TSCONFIG = 'tsconfig.json'
+
+module.exports = {
+  extends: '@cdlab996',
+}
+```
 
 ### 🎨 Prettier
 
@@ -23,7 +32,7 @@ module.exports = {
 }
 ```
 
-<!-- ## ⚙️ IDE Settings
+## ⚙️ IDE Settings
 
 ### Visual Studio Code
 
@@ -35,8 +44,15 @@ To enable automatic code formatting with ESLint in Visual Studio Code, add the f
     "source.fixAll.eslint": true
   }
 }
-``` -->
+```
+
+## ⚡ Credits
+
+This project is inspired by:
+
+- https://github.com/zolplay-cn/config-monorepo
+- https://github.com/antfu/eslint-config
 
 ## 📜 License
 
-This project is licensed under the [MIT License](./LICENSE).
+[MIT](./LICENSE) License &copy; 2023-PRESENT [cdLab996](https://github.com/cdLab996)

@@ -1,6 +1,6 @@
 {
   "name": "@cdlab996/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "files": [
     "index.js"
@@ -18,5 +18,9 @@
   "peerDependencies": {
     "eslint": ">=7.4.0",
     "typescript": ">=3.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
