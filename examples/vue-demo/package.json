@@ -1,0 +1,27 @@
+{
+  "name": "@cdlab996/vue-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "prettier:write": "prettier --write \"./src/**/*.{ts,tsx}\" \"./vite.config.ts\"",
+    "lint": "eslint ./",
+    "lint:code": "eslint ./src",
+    "lint:code1": "eslint ./src/**/*.{vue,ts,tsx}",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@cdlab996/eslint-config-vue": "workspace:*",
+    "@cdlab996/prettier-config": "workspace:*",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
