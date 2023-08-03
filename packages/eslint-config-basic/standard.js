@@ -27,10 +27,7 @@ module.exports = {
     'no-var': 'warn',
     'object-shorthand': ['warn', 'properties'],
 
-    'accessor-pairs': [
-      'error',
-      { setWithoutGet: true, enforceForClassMembers: true },
-    ],
+    'accessor-pairs': ['error', { setWithoutGet: true, enforceForClassMembers: true }],
     'array-bracket-spacing': ['error', 'never'],
     'array-callback-return': [
       'error',
@@ -59,11 +56,7 @@ module.exports = {
       },
     ],
 
-    'computed-property-spacing': [
-      'error',
-      'never',
-      { enforceForClassMembers: true },
-    ],
+    'computed-property-spacing': ['error', 'never', { enforceForClassMembers: true }],
     'constructor-super': 'error',
     'default-case-last': 'error',
     'dot-location': ['error', 'property'],
@@ -112,11 +105,7 @@ module.exports = {
     ],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'keyword-spacing': ['error', { before: true, after: true }],
-    'lines-between-class-members': [
-      'error',
-      'always',
-      { exceptAfterSingleLine: true },
-    ],
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'multiline-ternary': ['error', 'always-multiline'],
     'new-cap': ['error', { newIsCap: true, capIsNew: false, properties: true }],
     'new-parens': 'error',
@@ -237,15 +226,9 @@ module.exports = {
     'no-with': 'error',
     'object-curly-newline': ['error', { multiline: true, consistent: true }],
     'object-curly-spacing': ['error', 'always'],
-    'object-property-newline': [
-      'error',
-      { allowMultiplePropertiesPerLine: true },
-    ],
+    'object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
     'one-var': ['error', { initialized: 'never' }],
-    'padded-blocks': [
-      'error',
-      { blocks: 'never', switches: 'never', classes: 'never' },
-    ],
+    'padded-blocks': ['error', { blocks: 'never', switches: 'never', classes: 'never' }],
     'prefer-const': ['error', { destructuring: 'all' }],
     'prefer-promise-reject-errors': 'error',
     'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
@@ -268,10 +251,7 @@ module.exports = {
 
     'import/export': 'error',
     'import/first': 'error',
-    'import/no-absolute-path': [
-      'error',
-      { esmodule: true, commonjs: true, amd: false },
-    ],
+    'import/no-absolute-path': ['error', { esmodule: true, commonjs: true, amd: false }],
     'import/no-duplicates': 'error',
     'import/no-named-default': 'error',
     'import/no-webpack-loader-syntax': 'error',

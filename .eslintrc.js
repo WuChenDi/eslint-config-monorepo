@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['@cdlab996'],
+  // extends: ['@cdlab996'],
 }

@@ -1,6 +1,6 @@
 {
   "name": "@cdlab996/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "author": "wudi",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.45.0"
+    "eslint": "^8.46.0"
   },
   "publishConfig": {
     "access": "public",

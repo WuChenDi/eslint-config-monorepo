@@ -12,6 +12,7 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
     'plugin:markdown/recommended',
+    // 'plugin:prettier/recommended',
     'prettier',
   ],
   ignorePatterns: [
@@ -46,14 +47,7 @@ module.exports = {
     '.vitepress/cache',
     '.turbo',
   ],
-  plugins: [
-    'html',
-    'unicorn',
-    'antfu',
-    'no-only-tests',
-    'unused-imports',
-    'prettier',
-  ],
+  plugins: ['html', 'unicorn', 'antfu', 'no-only-tests', 'unused-imports', 'prettier'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
@@ -68,15 +62,9 @@ module.exports = {
         'jsonc/comma-dangle': ['error', 'never'],
         'jsonc/comma-style': ['error', 'last'],
         'jsonc/indent': ['error', 2],
-        'jsonc/key-spacing': [
-          'error',
-          { beforeColon: false, afterColon: true },
-        ],
+        'jsonc/key-spacing': ['error', { beforeColon: false, afterColon: true }],
         'jsonc/no-octal-escape': 'error',
-        'jsonc/object-curly-newline': [
-          'error',
-          { multiline: true, consistent: true },
-        ],
+        'jsonc/object-curly-newline': ['error', { multiline: true, consistent: true }],
         'jsonc/object-curly-spacing': ['error', 'always'],
         'jsonc/object-property-newline': [
           'error',
@@ -221,10 +209,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
-    'import/newline-after-import': [
-      'error',
-      { count: 1, considerComments: true },
-    ],
+    'import/newline-after-import': ['error', { count: 1, considerComments: true }],
 
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
@@ -260,8 +245,7 @@ module.exports = {
       'error',
       {
         property: '__proto__',
-        message:
-          'Use `Object.getPrototypeOf` or `Object.setPrototypeOf` instead.',
+        message: 'Use `Object.getPrototypeOf` or `Object.setPrototypeOf` instead.',
       },
       {
         property: '__defineGetter__',

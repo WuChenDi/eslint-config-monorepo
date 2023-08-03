@@ -1,6 +1,6 @@
 {
   "name": "@cdlab996/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "files": [
     "index.js"
@@ -9,7 +9,7 @@
     "@cdlab996/eslint-config-next": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.44.0"
+    "eslint": "^8.46.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

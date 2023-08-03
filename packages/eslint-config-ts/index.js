@@ -34,10 +34,7 @@ module.exports = {
               'no-implied-eval': 'off',
               '@typescript-eslint/no-implied-eval': 'error',
               'dot-notation': 'off',
-              '@typescript-eslint/dot-notation': [
-                'error',
-                { allowKeywords: true },
-              ],
+              '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
               '@typescript-eslint/no-floating-promises': 'error',
               '@typescript-eslint/no-misused-promises': 'error',
               '@typescript-eslint/await-thenable': 'error',
