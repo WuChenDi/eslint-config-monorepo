@@ -1,6 +1,6 @@
 {
   "name": "@cdlab996/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "index.js",
   "files": [
     "index.js"
