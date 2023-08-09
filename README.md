@@ -3,14 +3,17 @@
 ### 🔧 Installation
 
 ```shell
+# @cdlab996/eslint-config-vue
+
 pnpm add -D @cdlab996/eslint-config eslint
+
 pnpm add -D @cdlab996/prettier-config prettier
 ```
 
-### ESLint
+### 🎨 ESLint
 
 ```javascript
-// .eslintrc.js
+// .eslintrc.js/cjs
 
 // Only use if you want a stricter ruleset
 process.env.ESLINT_TSCONFIG = 'tsconfig.json'
@@ -25,7 +28,7 @@ module.exports = {
 To configure Prettier, create a `.prettierrc.js` file in the root of your project and add the following content:
 
 ```javascript
-// .prettierrc.js
+// .prettierrc.js/cjs
 
 module.exports = {
   ...require('@cdlab996/prettier-config'),
@@ -40,10 +43,17 @@ module.exports = {
 To enable automatic code formatting with ESLint in Visual Studio Code, add the following settings to your workspace or user settings:
 
 ```json
+// settings.json
+
 {
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+    "source.fixAll.eslint": true,
+    // "source.organizeImports": false
+  },
+  "eslint.validate": ["vue", "ts", "tsx"],
 }
 ```
 
