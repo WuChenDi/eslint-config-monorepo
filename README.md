@@ -3,7 +3,8 @@
 ### 🔧 Installation
 
 ```shell
-pnpm add -D @cdlab996/eslint-config @cdlab996/prettier-config
+pnpm add -D @cdlab996/eslint-config eslint
+pnpm add -D @cdlab996/prettier-config prettier
 ```
 
 ### ESLint
