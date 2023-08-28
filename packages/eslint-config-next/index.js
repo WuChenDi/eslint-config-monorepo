@@ -17,13 +17,14 @@ module.exports = {
      *
      * Plugin "react-hooks" was conflicted between ".eslintrc.json » @cdlab996/eslint-config » @cdlab996/eslint-config-next » eslint-config-next » plugin:react-hooks/recommended" and ".eslintrc.json » @cdlab996/eslint-config » @cdlab996/eslint-config-next » @cdlab996/eslint-config-react » plugin:react-hooks/recommended".
      */
-    'next',
+    // 'next',
     /**
      * whether it is established
      *
      * 'next' !== 'eslint-config-next',
      */
     'plugin:mdx/recommended',
+    'plugin:@next/next/recommended',
   ],
   settings: {
     react: {

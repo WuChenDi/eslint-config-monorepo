@@ -14,6 +14,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/no-unknown-property': 'off',
     'react/display-name': 'off',
+    'react-hooks/exhaustive-deps': 'error',
   },
   overrides: [
     {
