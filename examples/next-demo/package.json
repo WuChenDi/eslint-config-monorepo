@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier:write": "prettier --write \"./src/**/*.{ts,tsx}\"",
+    "lint:code": "eslint ./src",
+    "lint:code1": "eslint ./src/**/*.{ts,tsx}",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "next": "13.4.12",
