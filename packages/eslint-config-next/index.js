@@ -36,4 +36,7 @@ module.exports = {
       presets: [require.resolve('next/babel')],
     },
   },
+  rules: {
+    '@next/next/no-img-element': 0,
+  },
 }
