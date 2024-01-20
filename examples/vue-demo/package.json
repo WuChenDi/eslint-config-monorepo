@@ -21,7 +21,7 @@
     "@cdlab996/prettier-config": "workspace:*",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
-    "vite": "^4.4.5",
+    "vite": "^4.5.2",
     "vue-tsc": "^1.8.5"
   }
 }
