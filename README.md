@@ -66,4 +66,4 @@ This project is inspired by:
 
 ## 📜 License
 
-[MIT](./LICENSE) License &copy; 2023-PRESENT [WuChenDi](https://github.com/WuChenDi)
+[MIT](./LICENSE) License &copy; 2023-PRESENT [wudi](https://github.com/WuChenDi)
