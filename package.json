@@ -12,8 +12,8 @@
   "devDependencies": {
     "@cdlab996/eslint-config": "workspace:*",
     "@cdlab996/prettier-config": "workspace:*",
-    "eslint": "^8.46.0",
-    "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "eslint": "^8.49.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
   }
 }

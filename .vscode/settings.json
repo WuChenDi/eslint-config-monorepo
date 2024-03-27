@@ -1,29 +1,12 @@
 {
-	"prettier.enable": true,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.codeActionsOnSave": {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
-	"css.validate": false,
-	"less.validate": false,
-	"scss.validate": false,
-	"eslint.validate": ["vue", "ts", "tsx"],
-	// "eslint.validate": [
-	//   "javascript",
-	//   "javascriptreact",
-	//   "typescript",
-	//   "typescriptreact",
-	//   "vue",
-	//   "html",
-	//   "markdown",
-	//   "json",
-	//   "jsonc",
-	//   "yaml"
-	// ],
-	"stylelint.validate": ["css", "less", "postcss", "vue"],
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	}
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "prettier.enable": true
 }

@@ -1,6 +1,6 @@
 {
   "name": "@cdlab996/eslint-config-react",
-  "version": "0.0.5",
+  "version": "0.0.6-beta.1",
   "main": "index.js",
   "files": [
     "index.js"
@@ -14,9 +14,9 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.46.0",
+    "eslint": "^8.49.0",
     "react": "^18.2.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.4.3"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
