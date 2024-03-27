@@ -1,13 +1,12 @@
 {
   "name": "@cdlab996/eslint-config-ts",
-  "version": "0.0.6-beta.2",
+  "version": "0.0.6-beta.3",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "dependencies": {
     "@cdlab996/eslint-config-basic": "workspace:*",
-    "@stylistic/eslint-plugin-ts": "0.0.4",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
     "eslint-plugin-jest": "^27.4.0"
