@@ -1,18 +1,18 @@
 {
   "name": "@cdlab996/eslint-config",
-  "version": "0.0.6-beta.3",
+  "version": "0.0.6-beta.4",
   "main": "index.js",
   "files": [
     "index.js"
   ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "@cdlab996/eslint-config-next": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.49.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
   },
   "publishConfig": {
     "access": "public",

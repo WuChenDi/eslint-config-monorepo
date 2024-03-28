@@ -103,8 +103,8 @@ module.exports = {
     '@typescript-eslint/quotes': ['error', 'single'],
     'no-extra-parens': 'off',
     '@typescript-eslint/no-extra-parens': ['error', 'functions'],
-    'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    // 'comma-dangle': 'off',
+    // '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
 
     // antfu
     'antfu/no-cjs-exports': 'error',
