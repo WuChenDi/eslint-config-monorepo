@@ -5,7 +5,7 @@
 ```shell
 # @cdlab996/eslint-config-vue
 
-pnpm add -D @cdlab996/eslint-config eslint
+pnpm add -D @cdlab996/eslint-config eslint@8.57.0
 
 pnpm add -D @cdlab996/prettier-config prettier
 ```
@@ -50,10 +50,10 @@ To enable automatic code formatting with ESLint in Visual Studio Code, add the f
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": true
     // "source.organizeImports": false
   },
-  "eslint.validate": ["vue", "ts", "tsx"],
+  "eslint.validate": ["vue", "ts", "tsx"]
 }
 ```
 
