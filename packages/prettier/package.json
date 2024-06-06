@@ -1,10 +1,12 @@
 {
   "name": "@cdlab996/prettier-config",
-  "version": "0.0.6-beta.4",
+  "version": "0.0.11",
   "description": "wudi's Prettier config",
   "author": "wudi",
   "license": "MIT",
+  "homepage": "https://github.com/WuChenDi/eslint-config-monorepo",
   "keywords": [
+    "wudi",
     "cdlab996",
     "prettier-config"
   ],

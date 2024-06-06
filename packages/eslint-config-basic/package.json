@@ -1,6 +1,14 @@
 {
   "name": "@cdlab996/eslint-config-basic",
-  "version": "0.0.6-beta.4",
+  "version": "0.0.11",
+  "author": "wudi",
+  "license": "MIT",
+  "homepage": "https://github.com/WuChenDi/eslint-config-monorepo",
+  "keywords": [
+    "wudi",
+    "cdlab996",
+    "eslint-config"
+  ],
   "main": "index.js",
   "files": [
     "*.js"

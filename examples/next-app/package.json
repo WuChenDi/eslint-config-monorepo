@@ -1,0 +1,29 @@
+{
+  "name": "@cdlab996/eslint-next-app",
+  "version": "0.0.11",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint:primeval": "next lint",
+    "lint": "eslint ./src/**/*.{ts,tsx}",
+    "lint:fix": "eslint ./src/**/*.{ts,tsx} --fix",
+    "prettier": "prettier --check \"./src/**/*.{ts,tsx}\" \"./vite.config.ts\"",
+    "prettier:write": "prettier --check --write \"./src/**/*.{ts,tsx}\" \"./vite.config.ts\""
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@cdlab996/eslint-config": "workspace:*",
+    "@cdlab996/prettier-config": "workspace:*",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "8.57.0",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,4 +1,14 @@
-## ⚙️ eslint-config-monorepo
+# ⚙️ eslint-config-monorepo
+
+## 📦 Packages
+
+| Package                                                       | Description          | Latest                                                                                                                                             |
+| ------------------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@cdlab996/eslint-config-ts](packages/eslint-config-ts)       | 🔨 Eslint TypeScript | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-ts?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-ts)       |
+| [@cdlab996/eslint-config-next](packages/eslint-config-next)   | 🔨 Eslint Nextjs     | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-next?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-next)   |
+| [@cdlab996/eslint-config-react](packages/eslint-config-react) | 🔨 Eslint React      | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-react?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-react) |
+| [@cdlab996/eslint-config-vue](packages/eslint-config-vue)     | 🔨 Eslint Vue        | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-vue?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-vue)     |
+| [@cdlab996/prettier-config](packages/prettier-config)         | 🔨 prettier          | [![npm version](https://img.shields.io/npm/v/@cdlab996/prettier-config?logo=npm)](https://www.npmjs.com/package/@cdlab996/prettier-config)         |
 
 ### 🔧 Installation
 
@@ -43,17 +53,49 @@ module.exports = {
 To enable automatic code formatting with ESLint in Visual Studio Code, add the following settings to your workspace or user settings:
 
 ```json
-// settings.json
+// .vscode/settings.json
 
 {
-  "prettier.enable": true,
-  "editor.formatOnSave": true,
+  // Disable the default formatter, use eslint instead
+  "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  // Auto fix
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-    // "source.organizeImports": false
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.organizeImports": "never"
   },
-  "eslint.validate": ["vue", "ts", "tsx"]
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ],
+  "stylelint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ]
 }
 ```
 
@@ -61,8 +103,8 @@ To enable automatic code formatting with ESLint in Visual Studio Code, add the f
 
 This project is inspired by:
 
-- https://github.com/zolplay-cn/config-monorepo
-- https://github.com/antfu/eslint-config
+- <https://github.com/zolplay-cn/config-monorepo>
+- <https://github.com/antfu/eslint-config>
 
 ## 📜 License
 

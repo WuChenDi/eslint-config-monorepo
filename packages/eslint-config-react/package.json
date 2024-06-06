@@ -1,12 +1,24 @@
 {
   "name": "@cdlab996/eslint-config-react",
-  "version": "0.0.6-beta.4",
+  "version": "0.0.11",
+  "description": "",
+  "author": "wudi",
+  "license": "MIT",
+  "homepage": "https://github.com/WuChenDi/eslint-config-monorepo",
+  "keywords": [
+    "wudi",
+    "cdlab996",
+    "eslint-config"
+  ],
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
     "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
     "@cdlab996/eslint-config-ts": "workspace:*",
@@ -17,9 +29,6 @@
     "eslint": "^8.49.0",
     "react": "^18.2.0",
     "typescript": "^5.4.3"
-  },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
   },
   "publishConfig": {
     "access": "public",
