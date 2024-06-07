@@ -8,6 +8,7 @@
 | [@cdlab996/eslint-config-next](packages/eslint-config-next)   | 🔨 Eslint Nextjs     | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-next?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-next)   |
 | [@cdlab996/eslint-config-react](packages/eslint-config-react) | 🔨 Eslint React      | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-react?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-react) |
 | [@cdlab996/eslint-config-vue](packages/eslint-config-vue)     | 🔨 Eslint Vue        | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-vue?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-vue)     |
+| [@cdlab996/eslint-config-vue2](packages/eslint-config-vue2)   | 🔨 Eslint Vue2       | [![npm version](https://img.shields.io/npm/v/@cdlab996/eslint-config-vue2?logo=npm)](https://www.npmjs.com/package/@cdlab996/eslint-config-vue2)   |
 | [@cdlab996/prettier-config](packages/prettier-config)         | 🔨 prettier          | [![npm version](https://img.shields.io/npm/v/@cdlab996/prettier-config?logo=npm)](https://www.npmjs.com/package/@cdlab996/prettier-config)         |
 
 ### 🔧 Installation
