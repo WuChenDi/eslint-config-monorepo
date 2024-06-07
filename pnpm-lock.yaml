@@ -239,6 +239,25 @@ importers:
         specifier: ^8.46.0
         version: 8.46.0
 
+  packages/eslint-config-vue2:
+    dependencies:
+      '@cdlab996/eslint-config-basic':
+        specifier: workspace:*
+        version: link:../eslint-config-basic
+      '@cdlab996/eslint-config-ts':
+        specifier: workspace:*
+        version: link:../eslint-config-ts
+      eslint-plugin-vue:
+        specifier: ^9.17.0
+        version: 9.24.0(eslint@8.57.0)
+      local-pkg:
+        specifier: ^0.4.3
+        version: 0.4.3
+    devDependencies:
+      eslint:
+        specifier: ^8.46.0
+        version: 8.57.0
+
   packages/prettier: {}
 
 packages:
@@ -5153,6 +5172,20 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  eslint-plugin-vue@9.24.0(eslint@8.57.0):
+    dependencies:
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
+      eslint: 8.57.0
+      globals: 13.24.0
+      natural-compare: 1.4.0
+      nth-check: 2.1.1
+      postcss-selector-parser: 6.0.16
+      semver: 7.6.0
+      vue-eslint-parser: 9.4.2(eslint@8.57.0)
+      xml-name-validator: 4.0.0
+    transitivePeerDependencies:
+      - supports-color
+
   eslint-plugin-yml@1.13.2(eslint@8.57.0):
     dependencies:
       debug: 4.3.4
@@ -6958,6 +6991,19 @@ snapshots:
     dependencies:
       debug: 4.3.4
       eslint: 8.46.0
+      eslint-scope: 7.2.2
+      eslint-visitor-keys: 3.4.2
+      espree: 9.6.1
+      esquery: 1.5.0
+      lodash: 4.17.21
+      semver: 7.6.0
+    transitivePeerDependencies:
+      - supports-color
+
+  vue-eslint-parser@9.4.2(eslint@8.57.0):
+    dependencies:
+      debug: 4.3.4
+      eslint: 8.57.0
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.2
       espree: 9.6.1

@@ -1,5 +1,5 @@
 {
-  "name": "@cdlab996/eslint-config-next",
+  "name": "@cdlab996/eslint-config-vue2",
   "version": "0.0.13",
   "description": "",
   "author": "wudi",
@@ -14,20 +14,17 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "peerDependencies": {
-    "next": ">=13"
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@cdlab996/eslint-config-react": "workspace:*",
-    "eslint-config-next": "^13.4.12",
-    "eslint-plugin-mdx": "^2.1.0"
+    "@cdlab996/eslint-config-basic": "workspace:*",
+    "@cdlab996/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.17.0",
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.46.0",
-    "typescript": "^5.1.6"
+    "eslint": "^8.46.0"
   },
   "publishConfig": {
     "access": "public",

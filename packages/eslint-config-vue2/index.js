@@ -4,7 +4,7 @@ const TS = isPackageExists('typescript')
 
 if (!TS) {
   console.warn(
-    '[@cdlab996/eslint-config-vue] TypeScript is not installed, fallback to JS only.'
+    '[@cdlab996/eslint-config-vue2] TypeScript is not installed, fallback to JS only.'
   )
 }
 
@@ -24,7 +24,7 @@ module.exports = {
     },
   ],
   extends: [
-    'plugin:vue/vue3-recommended',
+    'plugin:vue/recommended',
     TS ? '@cdlab996/eslint-config-ts' : '@cdlab996/eslint-config-basic',
   ],
   rules: {
