@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "release": "pnpm publish -r --filter @cdlab996/* --no-git-checks --tag=latest",
+    "release:beta": "pnpm publish -r --filter @cdlab996/* --no-git-checks --tag=beta",
     "clean": "bash ./scripts/clean.sh"
   },
   "devDependencies": {
