@@ -15,16 +15,17 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": "^9.10.0"
   },
   "dependencies": {
     "@cdlab996/eslint-config-basic": "workspace:*",
     "@cdlab996/eslint-config-ts": "workspace:*",
-    "eslint-plugin-vue": "^9.17.0",
-    "local-pkg": "^0.4.3"
+    "eslint-plugin-vue": "^9.28.0",
+    "local-pkg": "^0.5.0",
+    "vue-eslint-parser": "^9.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.46.0"
+    "eslint": "^9.0.0"
   },
   "publishConfig": {
     "access": "public",

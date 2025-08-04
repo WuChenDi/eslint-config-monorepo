@@ -1,10 +1,16 @@
 {
   "name": "@cdlab996/eslint-config-next",
+  "type": "module",
   "version": "0.0.13",
   "description": "",
   "author": "wudi",
   "license": "MIT",
   "homepage": "https://github.com/WuChenDi/eslint-config-monorepo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WuChenDi/eslint-config-monorepo.git",
+    "directory": "packages/eslint-config-next"
+  },
   "keywords": [
     "wudi",
     "cdlab996",
@@ -20,14 +26,22 @@
   "peerDependencies": {
     "next": ">=13"
   },
+  "peerDependenciesMeta": {
+    "@eslint-react/eslint-plugin": {
+      "optional": true
+    },
+    "@next/eslint-plugin-next": {
+      "optional": true
+    }
+  },
   "dependencies": {
     "@cdlab996/eslint-config-react": "workspace:*",
-    "eslint-config-next": "^13.4.12",
-    "eslint-plugin-mdx": "^2.1.0"
+    "eslint-config-next": "catalog:prod",
+    "eslint-plugin-mdx": "catalog:prod"
   },
   "devDependencies": {
-    "eslint": "^8.46.0",
-    "typescript": "^5.1.6"
+    "eslint": "catalog:peer",
+    "typescript": "catalog:dev"
   },
   "publishConfig": {
     "access": "public",

@@ -15,13 +15,13 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": "^9.10.0"
   },
   "dependencies": {
     "@cdlab996/eslint-config-next": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.49.0"
+    "eslint": "catalog:peer"
   },
   "publishConfig": {
     "access": "public",

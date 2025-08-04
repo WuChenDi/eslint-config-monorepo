@@ -1,5 +1,5 @@
 // console.warn('[@cdlab996/eslint-config] trigger.')
 
-module.exports = {
-  extends: '@cdlab996/eslint-config-next',
-}
+import nextConfig from '@cdlab996/eslint-config-next'
+
+export default nextConfig
